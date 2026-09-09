@@ -1,0 +1,3 @@
+import random
+def weighted_choice(items, weights):
+    return random.choices(items, weights=weights, k=1)[0]
